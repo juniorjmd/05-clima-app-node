@@ -1,20 +1,24 @@
 {
-  "name": "05-clima-app-node",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/juniorjmd/05-clima-app-node.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/juniorjmd/05-clima-app-node/issues"
-  },
-  "homepage": "https://github.com/juniorjmd/05-clima-app-node#readme"
+    "name": "05-clima-app-node",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/juniorjmd/05-clima-app-node.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/juniorjmd/05-clima-app-node/issues"
+    },
+    "homepage": "https://github.com/juniorjmd/05-clima-app-node#readme",
+    "dependencies": {
+        "color": "^4.2.3",
+        "inquirer": "^9.1.4"
+    }
 }

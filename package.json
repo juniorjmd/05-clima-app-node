@@ -6,6 +6,7 @@
     "scripts": {
         "start": "node index.js"
     },
+    "type": "module",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/juniorjmd/05-clima-app-node.git"
@@ -19,6 +20,7 @@
     "homepage": "https://github.com/juniorjmd/05-clima-app-node#readme",
     "dependencies": {
         "color": "^4.2.3",
+        "colors": "^1.4.0",
         "inquirer": "^9.1.4"
     }
 }
